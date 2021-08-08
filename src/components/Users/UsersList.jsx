@@ -2,7 +2,6 @@ import React from "react";
 import Card from "../UI/Card";
 
 const UsersList = ({ users }) => {
-   console.log(users);
    return (
       <Card className="users">
          <ul>
