@@ -1,9 +1,11 @@
 import React from "react";
+import "./styles/App.scss";
+import AddUser from "./components/Users/AddUser";
 
 const App = () => {
    return (
       <>
-         <h1>App</h1>
+         <AddUser />
       </>
    );
 };
