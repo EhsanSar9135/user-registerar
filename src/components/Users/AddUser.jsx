@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../UI/Button";
 import Card from "../UI/Card";
 
 const AddUser = () => {
@@ -12,7 +13,7 @@ const AddUser = () => {
             <input type="text" id="username" />
             <label htmlFor="age">Age (Years)</label>
             <input type="number" id="age" />
-            <button type="submit">Add User</button>
+            <Button type="submit">Add User</Button>
          </form>
       </Card>
    );
